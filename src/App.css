@@ -1,0 +1,151 @@
+
+.inc-exp-container {
+  background-color: #fff;
+  box-shadow: var(--box-shadow);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.inc-exp-container > div {
+  flex: 1;
+  text-align: center;
+}
+
+.inc-exp-container > div:first-of-type {
+  border-right: 1px solid #dedede;
+}
+
+
+.Header{
+  padding-left: 35%;
+  max-height: 90px;
+  background: #86a5ff;
+  display: flex;
+  overflow-x: auto;
+  border-radius: 10px;
+}
+
+.Header::-webkit-scrollbar{
+ background: rgba(0, 0, 0, 1); 
+ border-radius: 10px;
+ width: 0px;
+ display: none;
+}
+
+.Header .obj{
+  
+  min-width: 65%;
+  height: 60px;
+  line-height: 60px;
+  background: #86a5ff;
+  color: #fff;
+  font-size: 1.1rem;
+ padding-left: 1%;
+ font-weight: bold;
+ border: 0px solid;
+
+}
+
+.Eliminar{
+  text-align: center;
+  border-radius:10px;
+   background:red; 
+   color:#fff;
+  
+}
+.Eliminar:hover{
+  text-align: center;
+  border-radius:10px;
+   background:rgb(111, 1, 1); 
+   color:#fff;
+  
+}
+
+
+
+@media screen and (max-width: 1024px){
+  .Eliminar{
+    text-align: center;
+      width: 790px;
+  }
+  }
+  
+  @media screen and (max-width: 768px){
+    .Eliminar{
+      text-align: center;
+        width:580px;
+    }
+    }
+  
+  
+  @media screen and (max-width: 576px)
+  {
+    .Eliminar{
+      text-align: center;
+        width:300px;
+    }
+    }
+    
+  
+    @media screen and (max-width: 540px)
+  {
+    .Eliminar{
+      text-align: center;
+        width:400px;
+    }
+    }
+  
+    @media screen and (max-width: 414px)
+  {
+    .Eliminar{
+      text-align: center;
+        width:300px;
+    }
+    }
+  
+    @media screen and (max-width: 411px)
+  {
+    .Eliminar{
+      text-align: center;
+        width:300px;
+    }
+    }
+  
+  
+    @media (max-width: 375px){
+      .Eliminar{
+        text-align: center;
+          width: 265px;
+      }
+      }
+  
+      
+      @media screen and (max-width: 360px)
+      {
+        .Eliminar{
+          text-align: center;
+            width:255px;
+        }
+        }
+  
+    @media screen and (max-width: 320px)
+    {
+      .Eliminar{
+        text-align: center;
+          width:220px;
+      }
+      }
+  
+  
+      @media screen and (max-width: 280px)
+    {
+      .Eliminar{
+        text-align: center;
+          width:190px;
+      }
+      }
+  
+  
+
